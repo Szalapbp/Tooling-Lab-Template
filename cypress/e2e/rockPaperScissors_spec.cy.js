@@ -3,7 +3,7 @@ describe('Rock Paper Scissors JS Game', () =>{
   const name = 'Blake Szalapski';
 
   beforeEach(() => {
-    cy.visit('index.html');
+    cy.visit('http://localhost/tooling-lab-template/index.html');
   });
  it('Enters a specified name, selects between rock, paper, and scissors, then checks that the name and number of plays is in the game history', () => {
 //types your name
